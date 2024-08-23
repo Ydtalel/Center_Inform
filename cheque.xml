@@ -1,15 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Cheque inn="3702666196" kpp="922437816"
-        address="шсэОНрсдЦЙфшщчЦосТЕнкпыИщлгнцЭЧИБЕкВпСКифш АвС КЫЩЗТНаюеясн"
-        name="ПэбНиКДЯоГДАФИЮгоу" kassa="0WG8l6nB" shift="9" number="96"
-        datetime="0507631835">
-    <Bottle price="427.23"
-            barcode="88Njptj19NSkrtB2zDiabGj112818162382c0yshVshIesYZ68ZuhxEIf5dT8LyXSb"
-            ean="4005401854180" volume="0.2000"/>
-    <Bottle price="539.04"
-            barcode="75NbTOdEXzY0KA6g2ztg9Pv109335569751vg29hd2dBRdxSMCCcO2EwyP8PD33LeI"
-            ean="8584005040985" volume="1.1500"/>
-    <Bottle price="374.59"
-            barcode="54NyM07ZILtMc2sqcUIkJCU114579658740FzhXkHhWNmnQbv0ptMzriBGR6jjBtjH"
-            ean="4607168072120" volume="2.3000"/>
+<Cheque inn="7818011277" kpp="490789300"
+        address="кКзаёхдФгйЩчЫШгУЖ бзиасДиуцАРКёлФццПНвЮусбкшЫгхпЩаЮВМцЖвЫАПцЯ иПФЫухПЩЩБЛжьФиЭшжф"
+        name="ХКБтТЕУлфЬвЮжЦаГАЭтх" kassa="cZpExwIaBIy9" shift="3" number="72"
+        datetime="0211061139">
+    <Bottle price="101.98"
+            barcode="29NVRqevwARBZqtFQflGGMJ028577235346DlcqjuOBRm8rc1sUxRXSXg5ADB68QLK"
+            ean="4680002181295" volume="2.6000"/>
+    <Bottle price="232.32"
+            barcode="44NwjMJk7vzYecORJZ82D9K004037990187b7CsB7KWnjdtQxF6JQo01mIc4qYSbzx"
+            ean="4607168072120" volume="3.0000"/>
+    <Bottle price="812.93"
+            barcode="31Nc7YsRmo7Cm7fRNaW8z1O132455060272R6s6yun8vQO3nItfA0TTp3a7PdeH3nK"
+            ean="4017773002472" volume="1.0500"/>
+    <Bottle price="339.57"
+            barcode="70NHq6Gkb7v6GSaQeEqJ5cp105617628550BGYHA5l2KZ1B5WnQ5KIBnsH8yelOnbl"
+            ean="4041485023685" volume="1.0500"/>
+    <Bottle price="815.27"
+            barcode="63NEJ1TqyWf8oa35uceQr9i0120562451297tUG1drNOpnKGkrHZc2MSKYIpWFQz30"
+            ean="4041485138129" volume="0.5500"/>
+    <Bottle price="627.01"
+            barcode="81NlgRbwG62p4krudK6qUhW103175433968b65tqOuloa3WR4duUpnUYfBgFpfpGSJ"
+            ean="4620000630227" volume="2.0500"/>
+    <Bottle price="797.60"
+            barcode="20Nvj3Mn3Jky1YL90fz4clu023622972166aScx2eQ9ZBjOA3iIxDJq7wklBY3Zzpc"
+            ean="4607168072120" volume="0.1500"/>
 </Cheque>
