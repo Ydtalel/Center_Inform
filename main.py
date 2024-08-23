@@ -18,10 +18,14 @@ INN_LIST, EAN_LIST = read_file('INN.txt'), read_file('EAN.txt')
 
 
 def generate_barcode():
-    length = random.choice([20, 21, 30])
-    return ''.join(
-        random.choices(string.ascii_uppercase + string.digits, k=length)
-    )
+    part1 = ''.join(random.choices(string.digits, k=2))
+    part2 = 'N'
+    part3 = ''.join(random.choices(string.ascii_letters + string.digits, k=20))
+    part4 = random.choice(['0', '1'])
+    part5 = random.choice(['0', '1', '2', '3'])
+    part6 = ''.join(random.choices(string.digits, k=10))
+    part7 = ''.join(random.choices(string.ascii_letters + string.digits, k=31))
+    return f'{part1}{part2}{part3}{part4}{part5}{part6}{part7}'
 
 
 def generate_address(chars):
@@ -46,6 +50,15 @@ def generate_volume():
     return f'{random.choice(volumes_list):.4f}'
 
 
+def generate_datetime():
+    day = random.randint(1, 31)
+    month = random.randint(1, 12)
+    year = random.randint(0, 99)
+    hour = random.randint(0, 23)
+    minute = random.randint(0, 59)
+    return f'{day:02}{month:02}{year:02}{hour:02}{minute:02}'
+
+
 def generate_bottle():
     return {
         'price': f'{random.uniform(100, 1000):.2f}',
@@ -64,7 +77,7 @@ def create_xml(file_name):
         'kassa': generate_kassa(),
         'shift': str(random.randint(1, 10)),
         'number': str(random.randint(1, 100)),
-        'datetime': fake.date_time_this_year().strftime('%Y-%m-%dT%H:%M:%S')
+        'datetime': generate_datetime()
     })
 
     num_bottles = random.randint(1, 10)

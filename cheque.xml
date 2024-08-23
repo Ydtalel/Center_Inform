@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Cheque inn="3702666196" kpp="922437816"
+        address="шсэОНрсдЦЙфшщчЦосТЕнкпыИщлгнцЭЧИБЕкВпСКифш АвС КЫЩЗТНаюеясн"
+        name="ПэбНиКДЯоГДАФИЮгоу" kassa="0WG8l6nB" shift="9" number="96"
+        datetime="0507631835">
+    <Bottle price="427.23"
+            barcode="88Njptj19NSkrtB2zDiabGj112818162382c0yshVshIesYZ68ZuhxEIf5dT8LyXSb"
+            ean="4005401854180" volume="0.2000"/>
+    <Bottle price="539.04"
+            barcode="75NbTOdEXzY0KA6g2ztg9Pv109335569751vg29hd2dBRdxSMCCcO2EwyP8PD33LeI"
+            ean="8584005040985" volume="1.1500"/>
+    <Bottle price="374.59"
+            barcode="54NyM07ZILtMc2sqcUIkJCU114579658740FzhXkHhWNmnQbv0ptMzriBGR6jjBtjH"
+            ean="4607168072120" volume="2.3000"/>
+</Cheque>
